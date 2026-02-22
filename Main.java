@@ -30,9 +30,9 @@ public class Main{
         label3.setBackground(Color.BLUE);
         label3.setBounds(150,150,200,200);
 
-        layeredPane.add(label1);
-        layeredPane.add(label2);
-        layeredPane.add(label3);
+        layeredPane.add(label1, JLayeredPane.DEFAULT_LAYER);
+        layeredPane.add(label2, JLayeredPane.DEFAULT_LAYER);
+        layeredPane.add(label3, JLayeredPane.DEFAULT_LAYER);
 
         JFrame frame = new JFrame("JLayeredPane");
         frame.add(layeredPane);
